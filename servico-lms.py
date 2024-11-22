@@ -36,7 +36,7 @@ if uploaded_file is not None:
     
     if st.session_state.processed_df is not None:
         # Mostra alerta sobre os filtros
-        st.info('⚠️ Mostrando apenas dados para os labels: Elemess e Elemess Label Services')
+        st.info('⚠️ Filtro considerando apenas os labels: Elemess e Elemess Label Services')
         
         # Mostra o total de royalties
         st.metric(
